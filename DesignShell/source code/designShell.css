@@ -1,0 +1,38 @@
+.fontClass
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    color: chocolate;
+   }
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    font-size: 40px;
+    font-style: italic;
+    background-color: bisque;
+    text-align: center;
+}
+
+div{
+    padding: 20px;
+    border: red solid 2px;
+    margin: 30px;
+    width: 1150px;
+    height: 200px;
+    float: left;
+    border-radius: 40px;
+    color: magenta;
+    font-style: italic;
+    text-align: center;
+}
+
+#p1
+{
+    font-style: italic;
+    text-align: right;
+    color: crimson;
+
+}
