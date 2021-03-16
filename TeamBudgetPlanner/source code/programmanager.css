@@ -1,0 +1,15 @@
+.label
+{
+    color:darkorchid;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;   
+}
+
+body
+{
+    background-image:url("budget1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px 650px;
+    background-attachment: fixed;
+}
