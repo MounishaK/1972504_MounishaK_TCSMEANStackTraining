@@ -1,0 +1,16 @@
+body
+{
+    background-image:url("blog.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+    background-attachment: fixed;
+}
+
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    font-size: 37px;
+    font-style: italic;
+    text-align: center;
+}

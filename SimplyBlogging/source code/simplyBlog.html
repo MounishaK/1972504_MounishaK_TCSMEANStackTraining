@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Blogging</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "simplyBlog.css"/>
+    <script type = "text/JavaScript" src = "simplyBlog.js" ></script>
+</head>
+<body>
+    <br/>
+    <p class = " h2 font-family-apple-system" align = "center"  > Simply Blogging </p>
+    <br/>
+    <div class = "container">
+        <ul class = "nav justify-content-end">
+            <li class = "nav-item">
+                <a href = "#" class = "nav-link" >Add Blog</a></li>
+            
+            <li class = "nav-item">
+                <a href = "#" class = "nav-link" >Home</a></li>
+            
+            <li class = "nav-item">
+                <a href = "#" class = "nav-link" >AboutUs</a></li>
+            
+            <li class = "nav-item">
+                <a href = "#" class = "nav-link" >Contacts</a></li>
+        </ul>
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"class = "nav" >Title</label>
+              <input type="text" class="form-control col-3" name ="title" id="title">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" class = "nav">Articles</label>
+              <textarea class="form-control col-3 " name ="articles" id="articles" rows="3"></textarea>
+            </div>
+            
+            <div class="form-group">
+                  <label for="exampleFormControlFile1" class = "nav" >Add Image</label>
+                  <input type="file" class="form-control-file" name ="image" id="image">
+            </div>
+            <button type="button" class="btn btn-danger" onclick="onFormSubmit()">Add Blog</button>
+            
+          </form>
+          
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-4">
+                <div id="titleInfo"></div>
+                <div id="descInfo"></div>
+                <img src="" id="imageInfo"/>
+            </div>
+            <div class = "col-4">
+                <div id="titleInfo1"></div>
+                <div id="descInfo1"></div>
+                <img src="" id="imageInfo1"/>
+            </div>
+        </div>
+    </div>
+    
+        
+    </div>
+</body>
+</html>
