@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "cartmanagement.css"/>
+    <script type = "text/JavaScript" src = "cartmanagement.js">
+    </script>
+
+
+</head>
+<body>
+    <br/>
+    <p class = " h2 font-family-apple-system" align = "center"  > Cart Management </p>
+    <br/>
+
+    <div class = "container">
+        <ul class = "nav"> 
+            <li class = "nav-item">
+                <a href = "#" class = "nav-link" id = "num" >Cart Size</a></li>
+                <input type="text" class="form-control-sm col-1" >
+               
+        </ul>
+    </div>
+
+
+    <div class = "container">
+        <ul class = "nav justify-content-end">
+            <li class = "nav-item">
+                <a href = "cartcheckout.html" class = "nav-link" >Checkout</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class = "container">
+        <div class = "row">
+            <div class = "nav justify-content-center col-4">
+                <form>
+                    <div class="form-group">
+                    
+                        <br/>
+                      <label for="exampleFormControlInput1"class = "h4" name = "name1" id = "name1">Name:</label>
+                      <label for="exampleFormControlInput1"class = "h5" name ="item1" id = "item1">Pen Box</label>
+                     
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"class = "h4" name = "price1" id = "price1">Price:</label>
+                        <label for="exampleFormControlInput1"class = "h5" name ="itemPrice1" id = "itemPrice1">10$</label>
+                        
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger" onclick="onFormSubmit(1)">Add to Cart</button>
+                    
+                  </form>
+            </div>
+
+            <div class = "col-4"></div>
+
+             <div class = "nav justify-content-center col-4">
+                <form>
+                    <div class="form-group">
+                   
+                    <br/>
+                    <label for="exampleFormControlInput1"class = "h4"  name = "name2" id = "name2" >Name:</label>
+                    <label for="exampleFormControlInput1"class = "h5" name ="item2" id = "item2" >Book</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"class = "h4" name = "price2" id = "price2" >Price:</label>
+                        <label for="exampleFormControlInput1"class = "h5" name ="itemPrice2" id = "itemPrice2">20$</label>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger" onclick="onFormSubmit(2)">Add to Cart</button>
+                    
+                  </form>
+            </div>
+        </div>
+        <br/><br/>
+        <div class = "row">
+            <div class = "nav justify-content-center col-4">
+                <form>
+                    <div class="form-group">
+                        
+                        <br/>
+                      <label for="exampleFormControlInput1"class = "h4" name = "name3" id = "name3" >Name:</label>
+                      <label for="exampleFormControlInput1"class = "h5" name ="item3" id = "item3">Laptop</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"class = "h4" name = "price3" id = "price3" >Price:</label>
+                        <label for="exampleFormControlInput1"class = "h5" name ="itemPrice3" id = "itemPrice3">500$</label>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger" onclick="onFormSubmit(3)">Add to Cart</button>
+                    
+                  </form>
+            </div>
+
+            <div class = "col-4"></div>
+
+            <div class = "nav justify-content-center col-4">
+                <form>
+                    <div class="form-group">
+                    
+                    <br/>
+                    <label for="exampleFormControlInput1"class = "h4"  name = "name4" id = "name4" >Name:</label>
+                    <label for="exampleFormControlInput1"class = "h5" name ="item4" id = "item4">iphone11</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"class = "h4" name = "price4" id = "price4" >Price:</label>
+                        <label for="exampleFormControlInput1"class = "h5" name ="itemPrice4" id = "itemPrice4">400$</label>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger" onclick="onFormSubmit(4)">Add to Cart</button>
+                    
+                  </form>
+            </div>
+        </div>
+
+
+        <br/><br/>
+        <div class = "row">
+            <div class = "nav justify-content-center col-4">
+                <form>
+                    <div class="form-group">
+                     
+                      <label for="exampleFormControlInput1"class = "h4" name = "name5" id = "name5">Name:</label>
+                      <label for="exampleFormControlInput1"class = "h5" name ="item5" id = "item5">Camera</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"class = "h4" name = "price5" id = "price5">Price:</label>
+                        <label for="exampleFormControlInput1"class = "h5" name ="itemPrice5" id = "itemPrice5" >600$</label>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger" onclick="onFormSubmit(5)">Add to Cart</button>
+                    
+                  </form>
+            </div>
+
+            <div class = "col-4"></div>
+
+            <div class = "nav justify-content-center col-4">
+                <form>
+                    <div class="form-group">
+                
+                    <br/>
+                    <label for="exampleFormControlInput1"class = "h4" name = "name6" id = "name6" >Name:</label>
+                    <label for="exampleFormControlInput1"class = "h5" name ="item6" id = "item6">Watch</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"class = "h4" name = "price6" id = "price6">Price:</label>
+                        <label for="exampleFormControlInput1"class = "h5" name ="itemPrice6" id = "itemPrice6">200$</label>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger" onclick="onFormSubmit(6)">Add to Cart</button>
+                    
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
