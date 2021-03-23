@@ -34,6 +34,7 @@ function onFormSubmit()
     storeInSession();
 }
 
+
 function resetData()
 {
     document.getElementById("title").value ="";
