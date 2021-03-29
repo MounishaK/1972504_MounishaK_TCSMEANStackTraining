@@ -1,0 +1,40 @@
+<div class = "container">
+    <br/><br/>
+    <form [formGroup] = "trackerRef" (ngSubmit) = "trackerInfo()" class = "formcontrol">
+        <label class ="formcontrol col-2"> ID </label>
+        <input typpe = "text" formControlName  = "empid" class ="formcontrol col-1" /><br/>
+        <br/>
+        <label class ="formcontrol col-2"> Name</label>
+        <input type = "text" formControlName = "empname" class ="formcontrol col-1"/><br/>
+        <br/>
+        <label class ="formcontrol col-2"> Task</label>
+        <input typpe = "text" formControlName  = "task" class ="formcontrol col-1" /><br/>
+        <br/>
+        <label class ="formcontrol col-2"> Deadline</label>
+        <input type = "date" formControlName = "deadline" class ="formcontrol col-1"/><br/>
+        <br/>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <input type = "submit" value = "Submit" class ="formcontrol col-1"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type = "reset" value = "Reset" class ="formcontrol col-1"/>
+        <br/><br/>
+
+       <table id = "TrackerDetails" >
+                <tr>
+                    <th>ID</th>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <th>Name</th>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <th>Task</th>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <th>Deadline</th>
+                </tr>
+                <tr *ngFor = "let tracker of trackerdetails">
+                    <td>{{tracker.empid}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <td>{{tracker.empname}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <td>{{tracker.task}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <td>{{tracker.deadline}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+                </tr>
+        </table>
+    </form>
+   {{msg}}
+</div>
