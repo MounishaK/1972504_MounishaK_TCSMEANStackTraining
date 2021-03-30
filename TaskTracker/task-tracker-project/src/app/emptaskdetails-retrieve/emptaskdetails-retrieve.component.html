@@ -1,0 +1,14 @@
+<table border="1" >
+    <tr>
+        <th>ID</th>&nbsp;&nbsp;&nbsp;&nbsp;
+        <th>Name</th>&nbsp;&nbsp;&nbsp;&nbsp;
+        <th>Task</th>&nbsp;&nbsp;&nbsp;&nbsp;
+        <th>Deadline</th>
+    </tr>
+    <tr *ngFor = "let tracker of employeestasks">
+        <td>{{tracker.empid}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>{{tracker.empname}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>{{tracker.task}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>{{tracker.deadline}}</td>&nbsp;&nbsp;&nbsp;&nbsp;
+    </tr>
+</table> 
