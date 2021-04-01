@@ -10,12 +10,13 @@ import { TrackerDetails } from '../trackerdetails';
 export class EmptaskdetailsRetrieveComponent implements OnInit {
 
   employeestasks:Array<TrackerDetails> = [];
-  constructor(public todolist:EmptaskdetailsService) { }
+
+  constructor(private todolist:EmptaskdetailsService) { }
+ 
+  //trackerdetails:EmptaskdetailsService[]=[];
+  
 
   ngOnInit(): void {
     this.todolist.loadEmployeeTaskDetails().subscribe(result=>this.employeestasks=result);
-
   }
-  
-
 }
