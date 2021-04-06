@@ -7,7 +7,7 @@ console.log("your lastname is "+lname);
 let gender = obj.question("Enter the gender");
 console.log("your firstname is "+gender);
 let email = obj.question("Enter the email");
-console.log("your lastname is "+email);
+console.log("your email is "+email);
 var datetime = new Date();
 console.log(datetime);
 var array = new Array();
